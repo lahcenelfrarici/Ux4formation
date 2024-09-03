@@ -445,3 +445,13 @@ footer.footer-box .fluid {
 footer.footer-box .fluid .container-fluid .row {
     padding-bottom: 40px;
 }
+div#navbarNavDropdown .nav-item > a {
+    color: #FFF;
+    text-align: right;
+    font-family: Nasalization;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+    text-transform: uppercase;
+}
