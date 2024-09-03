@@ -1,0 +1,281 @@
+.custom-header {
+    border-radius: 0;
+    border-bottom: 2px solid #FFF;
+    background: linear-gradient(62deg, #5704E0 -6.64%, #F331EA 61.3%, #950085 97.54%, #9E0099 151.12%);
+    box-shadow: 0px -5px 70px 0px rgba(255, 255, 255, 0.50);
+    margin: 0;
+    position: relative;
+}
+
+.custom-rectangle {
+    margin: 0;
+    border-radius: 0;
+    border-bottom: 0px solid #ffffff;
+}
+
+.custom-row {
+    margin: 18px;
+}
+
+.custom-button {
+    width: 100%;
+    max-width: 150px;
+    background: linear-gradient(130deg, #792CFC 3%, #B23293 57%, #6D479C 100%);
+    box-shadow: 0px 0px 59.6px rgba(241, 33, 119, 0.20);
+    border-radius: 100px;
+}
+
+.custom-button-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*  */
+#slider-mobil {
+    margin-top: -10%;
+    height: 700px;
+    background-image: url('/public/images/section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-content {
+    text-align: center;
+}
+
+.slider-title {
+    text-align: center;
+}
+
+.slider-text {
+    margin: 20px;
+    text-align: center;
+}
+/*  */
+.custom-fluid {
+    margin: 5%;
+}
+
+.custom-content {
+    display: inline-block;
+    align-content: center;
+}
+
+.custom-title {
+    margin-top: 5%;
+}
+
+.custom-subtitle {
+    margin-top: 5%;
+}
+
+header .custom-button {
+    margin-top: 0;
+}
+.custom-button {
+    margin-top: 30px;
+    border-radius: 100px;
+    border: 1px solid var(--uxx, #5505D9);
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.71) 100%);
+    box-shadow: 0px 0px 20.2px 0px rgba(241, 33, 119, 0.50);
+    width: 100%;
+    max-width: 60%;
+}
+
+.custom-button-inner {
+    padding: 8px;
+    border-radius: 100px;
+    border: 1px solid var(--uxx, #5505D9);
+}
+
+.custom-button-link {
+    color: #7620C6;
+    text-decoration: none;
+}
+.services {
+    /* Add your custom styles here */
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.services .row {
+    margin-top: 7%; /* Adjust as needed */
+}
+
+.services .service-item {
+    margin: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.services .service-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services .service-item h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.services .service-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.services .custom-btn {
+    margin-top: 30px;
+    background: linear-gradient(130deg, #792CFC 3%, #B23293 57%, #6D479C 100%);
+    box-shadow: 0px 0px 59.6px rgba(241, 33, 119, 0.20);
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.services .custom-pagination {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.services .custom-pagination .prev-btn,
+.services .custom-pagination .next-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.services .custom-pagination .counter {
+    margin: 0 15px;
+    font-size: 16px;
+}
+/*  */
+/* Targeting the .transform section */
+.transform {
+    padding: 60px 0;
+}
+
+.transform .content-container {
+    margin: 5%;
+}
+
+.transform .main-heading {
+    margin-top: 2%;
+    font-weight: 900;
+}
+
+.transform .sub-heading {
+    margin-top: 5%;
+}
+
+.transform .background-image-container {
+    height: auto;
+    background-size: cover;
+    background-image: url('/public/images/robot.png');
+}
+
+.transform .image-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transform .culture-image {
+    width: 90%;
+    padding: 20px 10px;
+}
+
+.transform .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.transform .description {
+    font-size: 14px;
+}
+
+.transform .custom-btn {
+    margin-top: 50px;
+    width: 40%;
+    background: #fff;
+    box-shadow: 0px 0px 59.6px rgba(241, 33, 119, 0.20);
+    border-radius: 100px;
+}
+
+.transform .btn-content {
+    padding: 5px;
+}
+
+.transform .btn-link {
+    color: #7620C6;
+}
+.testimonials_box .testimonials_background {
+    background: linear-gradient(80deg, #5704E0 -13.11%, #F331EA 56.42%, #950085 105.68%, #9E0099 105.68%);
+    box-shadow: 0px 22px 73.1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.testimonials_box .testimonials_content {
+    padding: 70px;
+}
+
+.testimonials_box .testimonials_heading {
+    color: #FFF;
+}
+
+.testimonials_box .testimonials_description {
+    color: #FFF !important;
+}
+
+.testimonials_box .testimonials_number .number {
+    color: #FFF;
+}
+
+.testimonials_box .testimonials_client {
+    color: #FFF;
+}
+
+.testimonials_box .testimonials_button {
+    margin-top: 30px;
+    width: 40%;
+    background: linear-gradient(130deg, #792CFC 3%, #B23293 57%, #6D479C 100%);
+    box-shadow: 0px 0px 59.6px rgba(241, 33, 119, 0.20);
+    border-radius: 100px;
+}
+
+.testimonials_box .testimonials_button_inner {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px #ffffff solid;
+}
+
+.testimonials_box .testimonials_button_text {
+    color: #ffffff;
+}
+
+.testimonials_box .testimonials_carousel_container {
+    padding: 70px;
+}
+
+.testimonials_box .testimonial_card {
+    justify-content: center;
+    display: flex;
+}
+
+.testimonials_box .testimonial_card_header img {
+    width: 100%;
+}
+
+.testimonials_box .testimonial_card_body h3,
+.testimonials_box .testimonial_card_body .position,
+.testimonials_box .testimonial_card_body .description {
+    text-align: center;
+}
+/*  */
+
