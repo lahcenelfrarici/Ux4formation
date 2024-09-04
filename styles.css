@@ -1,3 +1,26 @@
+.fixed-column {
+  height: 100vh; /* Assure que la colonne fixe occupe toute la hauteur de la vue */
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+.scroll-column {
+  height: 100vh; /* Pour que la colonne de défilement occupe toute la hauteur de la vue */
+  overflow-y: scroll; /* Permettre le défilement vertical */
+  scrollbar-width: none; /* Pour Firefox */
+  -ms-overflow-style: none; /* Pour Internet Explorer et Edge */
+  padding: 20px;
+  background-color: #e9ecef;
+}
+
+/* Pour Chrome, Safari, et autres WebKit */
+.scroll-column::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 /* General header styling */
 header {
   background-color: #ffffff;
@@ -152,11 +175,10 @@ img.disable-color.logo {
 
 .custom-pagination button {
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff00;
   padding: 10px;
   background: #FFF;
-  box-shadow: 0px 4px 21.4px 0px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
+   cursor: pointer;
   margin: 0 15px;
 }
 
@@ -201,13 +223,26 @@ img.disable-color.logo {
   }
 }
 
+.services .row{
+  margin-top: 0px !important;
+}
 
-
-
-
+.btn-link{
+  color: #FFF;
+}
+.team{
+ 
+    padding: 80px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px -1px 73.1px 0px rgba(0, 0, 0, 0.15); 
+  }
+#team{
+ justify-content: center;display: flex; 
+}
 
 .section-padding {
-  padding: 60px 0px 0px 0px;
+  padding: 60px 0px 60px 0px;
 }
 
 
