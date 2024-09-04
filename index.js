@@ -1,5 +1,5 @@
  $(document).ready(function () {
-    $(".owl-carousel").owlCarousel({
+    $("#customers-services").owlCarousel({
         margin: 10,
         loop: true,
         dots: true,
@@ -18,28 +18,35 @@
      function updateCounter() {
          $('.counter').text(currentSlide + ' of ' + totalItems);
      }
+     var owl = $('#customers-services');
+     var totalItems = owl.find('.item').length;
+     var currentSlide = 1;
 
-    //  owl.owlCarousel({
-    //      loop: true,
-    //      center: true,
-    //      margin: -38,
-    //      dots: false, // Disable dots
-    //      nav: false, // Disable default nav
-    //      autoplayTimeout: 5000,
-    //      smartSpeed: 450,
-    //      responsive: {
-    //          0: {
-    //              items: 1
-    //          },
-    //          600: {
+     function updateCounter() {
+         $('.counter').text(currentSlide + ' of ' + totalItems);
+     }
 
-    //              items: 2
-    //          },
-    //          1000: {
-    //              items: 3
-    //          }
-    //      }
-    //  });
+     owl.owlCarousel({
+         loop: true,
+         center: true,
+         margin: -38,
+         dots: false, // Disable dots
+         nav: false, // Disable default nav
+         autoplayTimeout: 5000,
+         smartSpeed: 450,
+         responsive: {
+             0: {
+                 items: 1
+             },
+             600: {
+
+                 items: 2
+             },
+             1000: {
+                 items: 3
+             }
+         }
+     });
 
      $('.prev-btn').click(function () {
          owl.trigger('prev.owl.carousel');
@@ -99,7 +106,7 @@
 
      $('.testimonial-carousel').owlCarousel({
          nav: true,
-         navText: ["<img src='/public/images/nav2.png'>", "<img src='/public/images/nav1.png'>"],
+         navText: ["<img src='/public/images/nav1.png'>", "<img src='/public/images/nav2.png'>"],
          dots: false,
          navigation: true,
          autoplayTimeout: 3000,
