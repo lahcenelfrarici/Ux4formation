@@ -374,11 +374,14 @@ div#navbarNavDropdown {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    padding: 0 40px !important;
 }
 
 .menu-subs-inner ul >div:last-child ul {
     display: flex;
     flex-direction: column;
+    gap: 20px 0;
+
 }
 a:hover {
     text-decoration: none;
