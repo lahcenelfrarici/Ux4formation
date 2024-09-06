@@ -165,7 +165,7 @@ section.transform.section-padding {}
     color: #FFF;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #FFF;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -403,7 +403,7 @@ a:hover {
 
 .menu-subs-inner ul >div:last-child li a {
     color: #000;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -435,7 +435,7 @@ a:hover {
     color: #FFF;
     -webkit-text-stroke-width: 0.5;
     -webkit-text-stroke-color: #FFF;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -500,7 +500,7 @@ footer.footer-box .fluid .container-fluid .row {
 div#navbarNavDropdown .nav-item > a {
     color: #FFF;
     text-align: right;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -720,7 +720,7 @@ line-height: 30px; /* 187.5% */
     display: flex;
     color: #FFF;
     text-align: right;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1006,7 +1006,7 @@ flex-shrink: 0;
     text-align: center;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #FFF;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -1140,7 +1140,7 @@ div#customers-services h3 {
     color: #111;
     -webkit-text-stroke-width: 0.5;
     -webkit-text-stroke-color: #000;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
@@ -1279,7 +1279,7 @@ div#customers-services .owl-nav .owl-next {
     color: #111;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #111;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -1318,7 +1318,7 @@ div#customers-services .owl-nav .owl-next {
 
 .testimonials_box .card-body h3 {
     color: #111;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1411,7 +1411,7 @@ section.logo.section-padding > div {
     color: #FFF;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #FFF;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
@@ -1437,7 +1437,7 @@ section.logo.section-padding > div {
     text-align: center;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #111;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -1497,7 +1497,7 @@ section.logo.section-padding > div {
     text-align: center;
     -webkit-text-stroke-width: 0.30000001192092896;
     -webkit-text-stroke-color: #000;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -1512,7 +1512,7 @@ section.logo.section-padding > div {
     text-align: center;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #000;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -1544,7 +1544,7 @@ section.section-padding.work--with {}
     color: #000;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #000;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -1561,7 +1561,7 @@ section.section-padding.work--with {}
 }
 
 .cellele .col-sm-6 p:first-child {
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -1640,7 +1640,7 @@ section.sc--footer-linkdden {
     text-align: center;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #FFF;
-    font-family: Nasalization;
+    font-family: "nasalization";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
