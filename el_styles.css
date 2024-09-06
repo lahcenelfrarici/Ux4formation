@@ -1,11 +1,11 @@
 @font-face {
     font-family: "nasalization";
-    src: url("../webfonts/nasalization-rg.otf");
+    src: url("./webfonts/nasalization-rg.otf");
     font-display: swap;
   }
   @font-face {
     font-family: "Poppins";
-    src: url("../webfonts/Poppins.ttf");
+    src: url("./webfonts/Poppins.ttf");
     font-display: swap;
   }
 
