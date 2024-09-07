@@ -1,11 +1,11 @@
 @font-face {
     font-family: "nasalization";
-    src: url("./webfonts/nasalization-rg.otf");
+    src: url("../webfonts/nasalization-rg.otf");
     font-display: swap;
   }
   @font-face {
     font-family: "Poppins";
-    src: url("./webfonts/Poppins.ttf");
+    src: url("../webfonts/Poppins.ttf");
     font-display: swap;
   }
 
@@ -174,7 +174,7 @@ section.transform.section-padding {}
 
 .transform .col-sm-7.mt-5 p {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -185,7 +185,7 @@ section.transform.section-padding {}
     text-decoration: none;
     color: #7620C6;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Poppins";
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -213,7 +213,7 @@ section.transform.section-padding {}
 .transform .sub-heading {
     margin-top: 5%;
     color: #111;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -355,6 +355,8 @@ div#navbarNavDropdown {
 .menu-subs-inner ul {
     display: flex;
     padding: 0;
+    list-style-type: none;
+    
 }
 
 .menu-subs-inner ul > div:first-child {
@@ -424,13 +426,15 @@ a:hover {
 
 .menu-subs-inner ul > div:first-child li p {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px; /* 181.25% */
 }
-
+footer.footer-box .fluid .container-fluid .row {
+    justify-content: center;
+}
 .menu-subs-inner ul > div:first-child h2 {
     color: #FFF;
     -webkit-text-stroke-width: 0.5;
@@ -459,7 +463,7 @@ a:hover {
 }
 footer.footer-box ul li:first-child a {
     color: #FFF !important;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14.625px !important;
     font-style: normal;
     font-weight: 600 !important;
@@ -468,7 +472,7 @@ footer.footer-box ul li:first-child a {
 }
 footer.footer-box ul li:not(:first-child) a {
     color: #E3E3E3 !important;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14.625px;
     font-style: normal;
     font-weight: 300;
@@ -510,7 +514,7 @@ div#navbarNavDropdown .nav-item > a {
 .botom--footer >div:last-child a {
     color: #FFF;
     text-align: right;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 13.016px;
     font-style: normal;
     font-weight: 300;
@@ -519,7 +523,7 @@ div#navbarNavDropdown .nav-item > a {
 
 footer.footer-box .fluid .container-fluid .row >div:first-child {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 13.016px;
     font-style: normal;
     font-weight: 300;
@@ -556,7 +560,7 @@ footer.footer-box section {
 
 .item-wrapper-news h2 {
     color: #F5F5F5;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
@@ -571,7 +575,7 @@ footer.footer-box section {
 
 .new--link p {
     color: #656262;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -580,7 +584,7 @@ footer.footer-box section {
 
 .new--link h4 {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -593,7 +597,7 @@ footer.footer-box section {
 
 .item-wrapper-news p {
     color: #656262;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -601,7 +605,7 @@ footer.footer-box section {
 }
 .item-wrapper-news h2 + p{
     color: #F5F5F5;
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -789,7 +793,10 @@ button.btn.search-btn {
     display: none;
 }
 .custom-header {
-    z-index: 999;
+    z-index: 99;
+}
+div#slider-mobisl .carousel-item {
+  height: 788px;
 }
 /*  */
 #preloader {
@@ -885,7 +892,7 @@ button.btn.search-btn {
     }
 }
 html, body {
-    overflow: auto;
+    overflow-x: hidden !important;
 }
 /* Slider  */
 
@@ -900,8 +907,15 @@ html, body {
     opacity:0.6;
 }
 
-
-
+.lopp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.showwww_mobile{
+    display: none;
+}
 
 /**
  * Button
@@ -1017,7 +1031,7 @@ div#slider-mobisl p {
     width: 513px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1080,16 +1094,23 @@ div#slider-mobisl p {
   }
   .custom-button-inner a {
     color: #7620C6;
-text-align: center;
-font-family: Manrope;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 187.5% */
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: "nasalization";
+    text-align: center;
+    font-family: Nasalization;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
   }
   .sc--1 h6 {
     color: #111;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1108,7 +1129,7 @@ line-height: 30px; /* 187.5% */
 section.services.section-padding p {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1150,7 +1171,7 @@ div#customers-services h3 {
 
 div#customers-services p {
     color: #111;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1195,7 +1216,7 @@ div#customers-services .service-item button a {
     vertical-align: middle;
     padding-left: 0;
     color: #FFF;
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -1223,7 +1244,7 @@ line-height: 30px; /* 187.5% */
     left: 0;
     top: 0;
     color: #FFF;
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -1290,7 +1311,7 @@ div#customers-services .owl-nav .owl-next {
 
 .testimonials_box p {
     color: #111;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1328,7 +1349,7 @@ div#customers-services .owl-nav .owl-next {
 
 .testimonials_box .card-body p {
     color: #9B9B9B;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1421,7 +1442,7 @@ section.logo.section-padding > div {
 
 .Stories___client  .container-fluid > .row >div:first-child  p {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -1448,7 +1469,7 @@ section.logo.section-padding > div {
 .sc--test .col-sm-12.mt-5  p {
     color: #333;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1527,7 +1548,7 @@ section.section-padding.work--with {
 .work--with p {
     color: #111;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1553,7 +1574,7 @@ section.section-padding.work--with {}
 
 .cellele p {
     color: #111;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -1575,7 +1596,7 @@ section.section-padding.work--with {}
 
 .cellele .col-sm-6 p:last-child {
     color: #111;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1646,4 +1667,74 @@ section.sc--footer-linkdden {
     font-weight: 400;
     line-height: 70px; /* 116.667% */
     letter-spacing: -3px;
+}
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul li a {
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  color: #FFF !important;
+  text-align: right;
+  font-family: Poppins !important;
+  font-size: 13.016px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 26px; /* 199.76% */
+}
+
+
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul {
+  display: flex;
+  gap: 0 24px;
+}
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul li:after {
+  content: '';
+  background-color: #fff;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  height: 15px;
+}
+
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul {
+  gap: 0 9px;
+}
+
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul li:last-child:after {
+  content: '';
+  opacity: 0;
+}
+
+footer.footer-box section.section-padding .row.botom--footer #footer----5 ul li:last-child {
+  padding-right: 0;
+}
+.nav-item.multilingue ul {
+  min-width: auto;
+  padding: 0;
+  border: 1px solid #fff;
+  background-color: #0c0041;
+  /* position: relative !important; */
+  /* top: 9px !important; */
+}
+
+.nav-item.multilingue ul a {
+  color: #fff;
+  font-size: 19px;
+}
+
+.nav-item.multilingue ul li:hover {
+  background-color: #0d0142;
+  width: 100%;
+}
+
+.nav-item.multilingue ul li {
+  padding: 3px 22px;
+}
+#slider-mobisl .carousel-inner img {
+  object-fit: cover;
 }
