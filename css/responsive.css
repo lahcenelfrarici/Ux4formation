@@ -1,3 +1,5 @@
+
+
 @media (max-width: 1119px) {
   div#navbarNavDropdown nav>ul {
     gap: 0;
@@ -441,7 +443,7 @@ footer.footer-box .fluid .container-fluid .row img {
 
 @media (max-width: 767px) {
   .row.botom--footer {
-   
+
     gap: 0px 0;
 }
 footer.footer-box section.section-padding .row.botom--footer #footer----5 ul li {

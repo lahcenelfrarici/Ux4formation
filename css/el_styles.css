@@ -1597,7 +1597,7 @@ section.logo.section-padding>div {
 }
 
 .sc--test .col-sm-12.mt-5 p {
-  color: #333;
+  color: #fff;
   text-align: center;
   font-family: "Poppins";
   font-size: 16px;
@@ -1737,6 +1737,20 @@ section.section-padding.work--with {}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.cellele .col-sm-12 .work {
+  font-family: "nasalization";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 56px; */
+  /* 175% */
+  letter-spacing: -2px;
+  background: var(--uxx, linear-gradient(93deg, #5505D9 -2.35%, #A400A9 34.52%, #9E0099 56.16%, #950085 97.67%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .cellele .col-sm-6 p:last-child {
   color: #111;
@@ -2010,4 +2024,66 @@ section.section-padding.cellele .btn {
 div#block-ux4mation-section11senioruxuidesigner .col-lg-6.col-sm-12.align-items-center.d-flex.justify-content-center.text-center img {
   width: 60%;
   height: 60%;
+}
+
+/*  */
+
+.sc--test .col-sm-12.mt-5 h2 {
+  color: #fff;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #111;
+  font-family: "nasalization";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -3px;
+}
+.sc--test .col-sm-12.mt-5 p{
+  text-align: left;
+}
+.container.wrapper-text-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.img--banner {
+  position: relative;
+}
+
+.img--banner img {
+  width: 100%;
+  height: 100%;
+}
+.video-wrapper-2-box .box1 {
+  width: 365px;
+  height: 572px;
+  background: red;
+  border-radius: 10px;
+}
+
+.box1 svg {
+  fill: #FA50CB;
+  mix-blend-mode: soft-light;
+}
+
+.video-wrapper-2-box {
+  display: flex;
+  gap: 10px 40px;
+}
+
+.video-wrapper-2-box>div:first-child {
+  position: relative;
+  top: -40px;
+}
+
+.video-wrapper-2-box>div:last-child {
+  position: relative;
+  top: 40px;
 }
