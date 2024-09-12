@@ -2061,12 +2061,12 @@ div#block-ux4mation-section11senioruxuidesigner .col-lg-6.col-sm-12.align-items-
   width: 100%;
   height: 100%;
 }
-.video-wrapper-2-box .box1 {
+/* .video-wrapper-2-box .box1 {
   width: 365px;
   height: 572px;
   background: red;
   border-radius: 10px;
-}
+} */
 
 .box1 svg {
   fill: #FA50CB;
@@ -2086,4 +2086,93 @@ div#block-ux4mation-section11senioruxuidesigner .col-lg-6.col-sm-12.align-items-
 .video-wrapper-2-box>div:last-child {
   position: relative;
   top: 40px;
+}
+
+
+.img--banner img.overly {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+section#how_serve h2 {
+  color: #111;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #111;
+  font-family: Nasalization;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px; /* 140% */
+  letter-spacing: -3px;
+}
+.btn--b {
+  border-radius: 100px;
+  background: var(--uxx, linear-gradient(93deg, #5505D9 -2.35%, #A400A9 34.52%, #9E0099 56.16%, #950085 97.67%));
+  box-shadow: 0px 0px 59.6px 0px rgba(241, 33, 119, 0.20);
+  width: 259px;
+  height: 64px;
+  border-radius: 100px;
+  /* opacity: 0.01; */
+  background: var(--uxx, linear-gradient(93deg, #5505D9 -2.35%, #A400A9 34.52%, #9E0099 56.16%, #950085 97.67%));
+  box-shadow: 0px 0px 59.6px 0px rgba(241, 33, 119, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.btn--b a {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 187.5% */
+}
+.odd-even--box {
+  padding: 50px 0;
+}
+
+.odd-even--box .content-box {
+  padding: 20px;
+  background-color: white;
+  border-left: 5px solid #1abc9c; /* Adjust color as needed */
+}
+
+.odd-even--box h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.odd-even--box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.odd-even--box .btn {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: white;
+}
+
+.odd-even--box img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .odd-even--box .row:nth-child(odd) .col-md-6:nth-child(1),
+  .odd-even--box .row:nth-child(even) .col-md-6:nth-child(2) {
+      order: 1;
+  }
+}
+.sc--test .col-sm-12.mt-5 p {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
