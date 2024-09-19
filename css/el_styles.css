@@ -2400,3 +2400,251 @@ social--4 .container.col--1-card {
 #social--4 .container.col--1-card h2 {
   width: auto;
 }
+section#Careers .wrapper-text-banner {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.stages-container * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stages-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  padding: 40px;
+  height: auto;
+}
+
+.stages-container .stage {
+  width: 31%;
+  padding: 20px;
+  background: linear-gradient(135deg, #a847ff, #ff5edf);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 20px;
+  background: linear-gradient(80deg, #5704E0 -13.11%, #F331EA 56.42%, #950085 105.68%, #9E0099 105.68%);
+  box-shadow: 0px 22px 73.1px 0px rgba(0, 0, 0, 0.20);
+  z-index: 33;
+}
+
+.stages-container .stage:hover {
+  transform: scale(1.05);
+}
+
+.stages-container .connector-line {
+  height: 50px;
+  width: 200px;
+}
+
+.stages-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFF;
+  font-family: Nasalization;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 341.667% */
+}
+
+.stages-container p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+h2 {}
+
+.stage.stage-1 p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 207.143% */
+  text-align: left;
+}
+
+#carres---3 h1 {
+  color: #111;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #111;
+  font-family: Nasalization;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px; /* 109.375% */
+  letter-spacing: -3px;
+}
+
+#carres---3 .mt-5 {
+  color: #111;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 181.25% */
+  /* color: #FFF; */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 207.143% */
+  color: #111;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 181.25% */
+}
+
+.stages-container .stage:nth-child(1) {
+  margin-top: 40%;
+}
+
+.stages-container .stage:nth-child(2) {
+  margin-top: 17%;
+}
+
+.stages-container .stage:nth-child(3) {}
+
+.after--icon {
+  position: absolute;
+  top: 256px;
+  transform: rotate(-164.965deg);
+  left: 0;
+  right: 146px;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+  height: 358px;
+  width: 749px;
+  bottom: 0;
+}
+
+.wrapper--card-items-carres {
+  position: relative;
+  margin-top: -16%;
+}
+section#carres---4 {
+  margin-top: 0;
+}
+section#wrapper---search {
+  margin: 40px 0 0 0;
+}
+#carres---6 .col-lg-3 >div {
+  height: 572px;
+}
+
+#carres---6 .col-lg-3 >div img {
+  height: 100%;
+  width: 100%;
+}
+
+.all-wrapper-right-carres >div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img--training-2 img:first-child {
+  height: 544px;
+  width: 100%;
+}
+
+.img--training-2 img:last-child {
+  height: 290px;
+  width: auto;
+}
+
+.right---carres-3 {
+  width: 48%;
+}
+
+.right---carres-3 h2 {
+  color: #111;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #111;
+  font-family: Nasalization;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px; /* 109.375% */
+  letter-spacing: -3px;
+}
+
+.right---carres-3  p {
+  color: #111;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 181.25% */
+  text-align: left;
+}
+
+.certifica {}
+
+.certifica h3 {
+  color: #111;
+  -webkit-text-stroke-width: 0.30000001192092896;
+  -webkit-text-stroke-color: #111;
+  font-family: Nasalization;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px; /* 291.667% */
+}
+
+.certifica p {
+  color: #111;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 181.25% */
+}
+
+.certifica--png {}
+
+.certifica--png .certifica--png {}
+
+.certifica--png .medie--png h4 {
+  text-align: center;
+  -webkit-text-stroke-width: 0.30000001192092896px;
+  -webkit-text-stroke-color: #000;
+  font-family: Nasalization;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  background: var(--li, linear-gradient(268deg, #7620C6 14.51%, #B62897 95.96%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img--training-2 {
+  width: 48%;
+}
+
+.certifica--png {
+  display: flex;
+}
+
+.medie--png img {
+  height: 67px;
+  width: 95%;
+}
