@@ -1,6 +1,33 @@
 
 
 @media (max-width: 1119px) {
+  .stages-container {
+    padding: 40px 0;
+}
+
+.stages-container .stage {
+    width: 33%;
+}
+
+.after--icon {
+    display: none;
+}
+
+.img--slider-scroll .img--card {
+    height: auto;
+}
+
+div#customers-services+ .owl-nav button.owl-prev, div#customers_work_1 .owl-nav button.owl-prev {
+    left: 30%;
+}
+
+div#customers-services .owl-nav .owl-next, div#customers_work_1 .owl-nav .owl-next {
+    left: 65%;
+}
+
+section#carres---6 {
+    padding: 15px;
+}
   div#navbarNavDropdown nav>ul {
     gap: 0;
     padding: 0;
@@ -83,10 +110,120 @@
   div#navbarNavDropdown nav>ul a {
     font-size: 15px !important;
   }
+  .row.certifica--all {
+    padding: 30px 0 0 0;
+}
 
 }
 
 @media (max-width: 991px) {
+  #wrapper---search .search-box {
+    width: 100%;
+}
+  .sc--test .col-sm-12.mt-5 h2 {
+    font-size: 30px;
+    line-height: 1px;
+}
+
+.sc--test .col-sm-12.mt-5 p {
+    line-height: 20px;
+    padding-top: 13px;
+}
+
+.img--banner {
+    height: 230px;
+}
+
+.img--banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+  .img--slider-scroll .col-sm-5 {
+    padding: 0 50px;
+}
+
+section.transform.section-padding.img--slider-scroll .fluid.we-are {
+    padding: 0;
+}
+
+.icon--left-left {
+    display: none;
+}
+
+.transform .main-heading {
+    font-size: 41px;
+    line-height: 61px !important;
+    margin-top: 7%;
+}
+  .img--slider-scroll .col-sm-5 {
+    padding: 0 50px;
+}
+  .img--training-2 img:first-child {
+    height: auto;
+    width: 100%;
+}
+  .row.certifica--all {
+    padding: 30px 0 0 0;
+}
+
+.img--training-2 {
+    width: 100%;
+}
+
+.right---carres-3 {
+    width: 100%;
+}
+
+.all-wrapper-right-carres >div {
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+.row.certifica--all {
+    flex-direction: column;
+    gap: 40px 0;
+}
+
+.certifica {
+    width: 100%;
+}
+
+.certifica--png {
+    width: 100%;
+}
+  #carres---6 .col-lg-3 >div {
+    height: auto;
+    margin-bottom: 40px;
+}
+  .stages-container .stage {
+    margin-top: 0 !important;
+}
+
+.stages-container .stage {
+    width: 100%;
+}
+
+.stages-container {
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+section#carres---3 {
+    padding: 30px;
+}
+
+.wrapper--card-items-carres {
+    margin-top: 0;
+}
+
+.img--slider-scroll .row {
+    flex-direction: column;
+}
+
+.img--slider-scroll .row >div {
+    width: 100%;
+}
 
   .flex-responsive {
     padding: 5px;

@@ -2561,7 +2561,7 @@ section#wrapper---search {
 
 .img--training-2 img:first-child {
   height: 544px;
-  width: 100%;
+  width: 78%;
 }
 
 .img--training-2 img:last-child {
@@ -2595,7 +2595,9 @@ section#wrapper---search {
   text-align: left;
 }
 
-.certifica {}
+.certifica {
+    width: 40%;
+}
 
 .certifica h3 {
   color: #111;
@@ -2638,13 +2640,35 @@ section#wrapper---search {
 
 .img--training-2 {
   width: 48%;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .certifica--png {
   display: flex;
+  width: 60%;
 }
 
 .medie--png img {
   height: 67px;
   width: 95%;
+}
+.row.certifica--all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.certifica p {
+  padding: 0;
+  margin: 0;
+  text-align: left !important;
+}
+#wrapper---search .search-box {
+  padding: 0 43px;
 }
