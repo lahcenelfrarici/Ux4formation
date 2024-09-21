@@ -50,7 +50,7 @@ $(document).ready(function () {
       600: {
 
         items: 2
-        
+
       },
       1000: {
         items: 1
@@ -59,13 +59,13 @@ $(document).ready(function () {
   });
 
   let targetNumber = 30; // Set the target number you want to reach
-  let speed = 50;        // Set the speed of the counter (in milliseconds)
-  
+  let speed = 50; // Set the speed of the counter (in milliseconds)
+
   function countUp(element, target) {
     let current = 0;
     let increment = Math.ceil(target / (2000 / speed)); // Adjust increment based on speed
 
-    let counterInterval = setInterval(function() {
+    let counterInterval = setInterval(function () {
       if (current < target) {
         current += increment;
         if (current > target) {
@@ -77,50 +77,50 @@ $(document).ready(function () {
       }
     }, speed);
   }
-  
+
   // Call the counter function
   countUp('.number', targetNumber);
-    var owl = $('#customers-work');
-    var totalItems = owl.find('.item').length;  // Number of total items
-    var currentSlide = 1;
+  var owl = $('#customers-work');
+  var totalItems = owl.find('.item').length; // Number of total items
+  var currentSlide = 1;
 
-    // Initialize Owl Carousel with 1 item visible
-    owl.owlCarousel({
-        items: 1,  // Show 1 image at a time
-        loop: true,
-        margin: 10,
-        nav: false,  // Disable default nav
-        dots: false,  // Disable dots
-        smartSpeed: 450
-    });
+  // Initialize Owl Carousel with 1 item visible
+  owl.owlCarousel({
+    items: 1, // Show 1 image at a time
+    loop: true,
+    margin: 10,
+    nav: false, // Disable default nav
+    dots: false, // Disable dots
+    smartSpeed: 450
+  });
 
-    // Update counter on slide change
-    function updateCounter() {
-        $('.counter').text(currentSlide + ' of ' + totalItems);
+  // Update counter on slide change
+  function updateCounter() {
+    $('.counter').text(currentSlide + ' of ' + totalItems);
+  }
+
+  // Custom Previous Button
+  $('.prev-btn').click(function () {
+    owl.trigger('prev.owl.carousel');
+  });
+
+  // Custom Next Button
+  $('.next-btn').click(function () {
+    owl.trigger('next.owl.carousel');
+  });
+
+  // Update counter when carousel changes
+  owl.on('changed.owl.carousel', function (event) {
+    currentSlide = event.item.index - event.relatedTarget._clones.length / 2 + 1;
+    if (currentSlide > totalItems) {
+      currentSlide = currentSlide - totalItems;
     }
-
-    // Custom Previous Button
-    $('.prev-btn').click(function () {
-        owl.trigger('prev.owl.carousel');
-    });
-
-    // Custom Next Button
-    $('.next-btn').click(function () {
-        owl.trigger('next.owl.carousel');
-    });
-
-    // Update counter when carousel changes
-    owl.on('changed.owl.carousel', function (event) {
-        currentSlide = event.item.index - event.relatedTarget._clones.length / 2 + 1;
-        if (currentSlide > totalItems) {
-            currentSlide = currentSlide - totalItems;
-        }
-        if (currentSlide <= 0) {
-            currentSlide = totalItems + currentSlide;
-        }
-        updateCounter();
-    });
-
-    // Initial counter setup
+    if (currentSlide <= 0) {
+      currentSlide = totalItems + currentSlide;
+    }
     updateCounter();
+  });
+
+  // Initial counter setup
+  updateCounter();
 });
